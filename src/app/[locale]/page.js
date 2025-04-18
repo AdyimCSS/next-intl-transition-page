@@ -1,6 +1,6 @@
+import Image from 'next/image';
 import {getTranslations} from 'next-intl/server';
 
-import {Link} from '@/i18n/navigation';
 import SwitchLang from '@/components/ydm/SwitchLang';
 import MainMenu from '@/components/base/MainMenu';
  
@@ -17,6 +17,9 @@ export default async function HomePage({params}) {
 
       <div className='container py-20'>
         <h1>{t('title')}</h1>
+        <div className='thumbnail-about size-[100px]'>
+          <Image className='w-full h-auto' src="/globe.svg" width={100} height={100} alt="" />
+        </div>
         <div>{locale == 'th' ? 'รายละเอียด หน้าแรก':'Content Home'}</div>
       </div>
     </div>
