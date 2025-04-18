@@ -1,6 +1,19 @@
-.thumbnail-about {
-  view-transition-name: img_about;
+.tranAbout1 {
+  view-transition-name: tran_about_1;
 }
-.large-about {
-  view-transition-name: img_about;
+.tranAbout1 {
+  view-transition-name: tran_about_1;
+}
+
+.tran_news_1 {
+  view-transition-name: tran_news_1;
+}
+.tran_news_2 {
+  view-transition-name: tran_news_2;
+}
+.tran_news_3 {
+  view-transition-name: tran_news_3;
+}
+.tran_news_4 {
+  view-transition-name: tran_news_4;
 }

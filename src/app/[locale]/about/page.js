@@ -17,7 +17,7 @@ export default async function page({params}) {
 
       <div className='container py-20'>
         <h1>{t('title')}</h1>
-        <div className='large-about size-[400px]'>
+        <div className='tranAbout1 size-[400px]'>
           <Image className='w-full h-auto' src="/globe.svg" width={400} height={400} alt="" />
         </div>
         <div>{locale == 'th' ? 'รายละเอียด เกี่ยวกับเรา':'Content About'}</div>
