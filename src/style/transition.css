@@ -17,3 +17,18 @@
 .tran_news_4 {
   view-transition-name: tran_news_4;
 }
+
+/* 
+::view-transition-old(txt) {
+  animation: fadeSlideOut 0.5s ease;
+}
+::view-transition-new(txt) {
+  animation: fadeSlideIn 0.5s ease;
+}
+@keyframes fadeSlideOut {
+  to {transform: translateX(-100px); opacity: 0;}
+}
+@keyframes fadeSlideIn {
+  from {transform: translateX(100px); opacity: 0;}
+} 
+*/

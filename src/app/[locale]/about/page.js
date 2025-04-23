@@ -21,6 +21,7 @@ export default async function page({params}) {
           <Image className='w-full h-auto' src="/globe.svg" width={400} height={400} alt="" />
         </div>
         <div>{locale == 'th' ? 'รายละเอียด เกี่ยวกับเรา':'Content About'}</div>
+        <div style={{"viewTransitionName":"txt"}} className='bg-red-500'>txt-1</div>
       </div>
     </div>
   )

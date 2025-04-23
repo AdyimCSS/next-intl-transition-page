@@ -22,6 +22,7 @@ export default async function HomePage({params}) {
           <Image className='w-full h-auto' src="/globe.svg" width={100} height={100} alt="" />
         </div>
         <div>{locale == 'th' ? 'รายละเอียด หน้าแรก':'Content Home'}</div>
+        <div style={{"viewTransitionName":"txt"}} className='bg-yellow-500'>txt-1</div>
 
       </div>
     </div>
